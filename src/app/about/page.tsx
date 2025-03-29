@@ -53,7 +53,7 @@ export default function AboutPage() {
                 <div className="absolute inset-0 bg-primary/20 rounded-3xl blur-2xl"></div>
                 <div className="relative w-full h-full rounded-3xl overflow-hidden border border-primary/20">
                   <Image
-                    src="/ron-smith.jpg"
+                    src="/images/founder.png"
                     alt="Ron Smith - Founder of TechnoSurfer"
                     fill
                     className="object-cover"
