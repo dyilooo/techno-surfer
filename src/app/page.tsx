@@ -289,7 +289,7 @@ export default function Home() {
                   <div className="relative w-full h-full rounded-2xl overflow-hidden border border-primary/20">
                     <iframe
                       className="w-full h-full"
-                      src="https://www.youtube.com/embed/hrZXqwGhB7c"
+                      src="https://www.youtube.com/embed/WyW_8kMQmJM"
                       title="Digital Marketing Strategy for E-commerce"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
@@ -305,7 +305,7 @@ export default function Home() {
                   <div className="relative w-full h-full rounded-2xl overflow-hidden border border-primary/20">
                     <iframe
                       className="w-full h-full"
-                      src="https://www.youtube.com/embed/Zn64GKr3kVg"
+                      src="https://www.youtube.com/embed/v2peLV3tges"
                       title="Social Media Marketing Strategies"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
@@ -321,7 +321,7 @@ export default function Home() {
                   <div className="relative w-full h-full rounded-2xl overflow-hidden border border-primary/20">
                     <iframe
                       className="w-full h-full"
-                      src="https://www.youtube.com/embed/ZZnOY_1LpY8"
+                      src="https://www.youtube.com/embed/Mn-B16MZP7U"
                       title="SEO for E-commerce"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
@@ -337,7 +337,7 @@ export default function Home() {
                   <div className="relative w-full h-full rounded-2xl overflow-hidden border border-primary/20">
                     <iframe
                       className="w-full h-full"
-                      src="https://www.youtube.com/embed/b-uwdG_YGQY"
+                      src="https://www.youtube.com/embed/H3YFHxiWNiM"
                       title="Email Marketing for E-commerce"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
@@ -353,7 +353,7 @@ export default function Home() {
                   <div className="relative w-full h-full rounded-2xl overflow-hidden border border-primary/20">
                     <iframe
                       className="w-full h-full"
-                      src="https://www.youtube.com/embed/TLf_ZyqI23E"
+                      src="https://www.youtube.com/embed/TkskQD1Lt4A"
                       title="Content Marketing Tips"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
