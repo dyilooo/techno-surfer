@@ -39,7 +39,7 @@ export default function Home() {
                   </h1>
                 </div>
                 <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-muted-foreground">
-                  Ride the Digital Wave with TechnoSurfer Marketing
+                  Ride the Digital Wave with TechnoSurfer Marketing!!!
                 </h2>
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
                   Our comprehensive digital marketing solutions help businesses grow their online presence, increase traffic, and convert more customers.
