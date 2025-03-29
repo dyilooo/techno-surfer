@@ -60,7 +60,7 @@ export default function Home() {
                     alt="Digital Marketing Dashboard"
                     className="w-full h-auto object-cover aspect-video"
                     height="310"
-                    src="/placeholder.svg?height=310&width=550"
+                    src="/images/home image.jpeg?height=310&width=550"
                     width="550"
                   />
                 </div>
