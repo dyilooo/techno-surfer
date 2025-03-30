@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { Home, Info, ShoppingCart, DollarSign, Mail, Menu } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 
@@ -34,39 +35,55 @@ export function Nav() {
         </div>
         <nav className="ml-auto flex items-center gap-4 sm:gap-6">
           <Link
-            className={`text-sm font-medium transition-colors hover:text-primary ${
+            className={`text-sm font-medium transition-colors hover:text-primary flex items-center gap-2 ${
               pathname === "/" ? "text-primary" : "text-muted-foreground"
             }`}
             href="/"
           >
+            <Home className="h-4 w-4" />
             Home
           </Link>
           <Link
-            className={`text-sm font-medium transition-colors hover:text-primary ${
+            className={`text-sm font-medium transition-colors hover:text-primary flex items-center gap-2 ${
               pathname === "/about" ? "text-primary" : "text-muted-foreground"
             }`}
             href="/about"
           >
+            <Info className="h-4 w-4" />
             About
           </Link>
           <Link
-            className={`text-sm font-medium transition-colors hover:text-primary ${
+            className={`text-sm font-medium transition-colors hover:text-primary flex items-center gap-2 ${
               pathname === "/services" ? "text-primary" : "text-muted-foreground"
             }`}
             href="/services"
           >
+            <Menu className="h-4 w-4" />
             Services
           </Link>
           <Link
-            className={`text-sm font-medium transition-colors hover:text-primary ${
+            className={`text-sm font-medium transition-colors hover:text-primary flex items-center gap-2 ${
               pathname === "/pricing" ? "text-primary" : "text-muted-foreground"
             }`}
             href="/pricing"
           >
+            <DollarSign className="h-4 w-4" />
             Pricing
           </Link>
-          <Button asChild variant="default" className="bg-primary hover:bg-primary/90">
-            <Link href="/contact">Contact</Link>
+          <Link
+            className={`text-sm font-medium transition-colors hover:text-primary flex items-center gap-2 ${
+              pathname === "/cart" ? "text-primary" : "text-muted-foreground"
+            }`}
+            href="/cart"
+          >
+            <ShoppingCart className="h-4 w-4" />
+            Cart
+          </Link>
+          <Button asChild variant="default" className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300">
+            <Link href="/contact" className="flex items-center gap-2">
+              <Mail className="h-4 w-4" />
+              Contact
+            </Link>
           </Button>
         </nav>
       </div>
