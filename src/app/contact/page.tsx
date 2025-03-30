@@ -248,8 +248,8 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-medium">Email</h3>
-                        <p className="text-sm text-muted-foreground">info@digimarkpro.com</p>
-                        <p className="text-sm text-muted-foreground">support@digimarkpro.com</p>
+                        <p className="text-sm text-muted-foreground">founder@technosurfers.com</p>
+                        <p className="text-sm text-muted-foreground">support@technosurfers.com</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-4">

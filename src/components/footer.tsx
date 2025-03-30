@@ -119,9 +119,9 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-primary mt-1" />
                 <div>
-                  <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">info@technosurfer.com</p>
-                  <p className="text-muted-foreground">support@technosurfer.com</p>
+                  <h3 className="font-medium">Email</h3>
+                  <p className="text-sm text-muted-foreground">founder@technosurfers.com</p>
+                  <p className="text-sm text-muted-foreground">support@technosurfers.com</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
