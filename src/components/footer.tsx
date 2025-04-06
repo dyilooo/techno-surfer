@@ -121,7 +121,7 @@ export function Footer() {
                 <div>
                   <h3 className="font-medium">Email</h3>
                   <p className="text-sm text-muted-foreground">founder@technosurfers.com</p>
-                  <p className="text-sm text-muted-foreground">support@technosurfers.com</p>
+                  <p className="text-sm text-muted-foreground">founder@technosurfers.com</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
